@@ -1,22 +1,22 @@
 <html>
     <head>
-	<script src="index.js"></script>
+	<script src="index.js" defer></script>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
 <div class="counter-main">
-    <div class="counter-bg"
+    <div class="counter-bg">
         <h1 class="border">Fishes counted:</h1>
         <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">
+        <button id="increment-btn">
 	<p>I saw a fish!</p>
 <p id="count">+1</p>
 </button>
-	<button id="decrement-btn" onclick="decrement()">
+	<button id="decrement-btn">
 <p>I miscounted</p> 
 <p id="miscount">-1</p>
 </button>
-        <button id="save-btn" onclick="save()">Save current count</button>
+        <button id="save-btn">Save current count</button>
         <p id="save-el" class="border">Previous fishes counted: </p>
         
 </div>
